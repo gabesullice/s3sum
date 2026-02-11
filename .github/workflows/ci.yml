@@ -17,3 +17,6 @@ jobs:
       - run: make test
       - run: make build
       - run: make man
+      - run: sudo make install
+      - run: s3sum --help
+      - run: man -w s3sum
