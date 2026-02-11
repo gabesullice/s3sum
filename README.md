@@ -8,6 +8,13 @@ Compute CRC64NVME checksums for verifying S3 object integrity. Output format mat
 go install github.com/gabesullice/s3sum@latest
 ```
 
+Or build from source:
+
+```
+make
+sudo make install
+```
+
 ## Usage
 
 ```

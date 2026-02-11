@@ -195,6 +195,10 @@ func init() {
 
 }
 
+func Root() *cobra.Command {
+	return rootCmd
+}
+
 func Execute() error {
 	err := rootCmd.Execute()
 	if err != nil {
